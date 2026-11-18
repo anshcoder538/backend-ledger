@@ -1,2 +1,0 @@
-BMDAQGh2QyiSkgUn
-tripathikumarnaven_db_user
