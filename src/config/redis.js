@@ -1,11 +1,11 @@
 const redis=require('redis');
 
 const redisClient=redis.createClient({
-    username: 'default',
-    password: 'YJu8IL1ijWRbKd5UaZlI6pJUbhmNkCsw',
+    username: process.env.REDIS_USERNAME,
+    password: process.REDIS_PASSWORD,
     socket: {
-        host: 'wish-breezy-crayon-91510.db.redis.io',
-        port: 10639
+        host: process.env.REDIS_HOST,
+        port: process.env.REDIS_PORT
     }
 });
 
